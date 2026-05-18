@@ -1,0 +1,54 @@
+# ==============================================================================
+# .NET / C# Specific
+# ==============================================================================
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+
+# Test results and coverage
+*.generated.*
+[Tt]est[Rr]esults/
+*.clog
+
+# ==============================================================================
+# Visual Studio Code Specific
+# ==============================================================================
+.vscode/
+# Comment out the line above and uncomment the lines below if you WANT to 
+# share your project tasks and debug configurations with your team:
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+# !.vscode/settings.json
+
+# ==============================================================================
+# User-Specific / Local Settings
+# ==============================================================================
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local app settings / secrets (Never commit production secrets!)
+appsettings.Development.json
+appsettings.local.json
+.secrets.json
+
+# ==============================================================================
+# Package Management
+# ==============================================================================
+# NuGet Packages
+*.nupkg
+# The packages folder can be reconstructed any time via 'dotnet restore'
+**/packages/
+# Project lock files
+project.lock.json
+project.fragment.lock.json
+
+# ==============================================================================
+# OS Specific (Optional cleanup)
+# ==============================================================================
+.DS_Store
+Thumbs.db
